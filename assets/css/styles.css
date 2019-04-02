@@ -208,7 +208,20 @@ div.scrollmenu img {
         float:              none;
         display:            block;
     }
-   .parallax {
+    .parallax {
         background-attachment:scroll;
-  }
+        padding:            0;
+        font-size:          1em;
+    }
+    .separator {
+        font-size:          2em;
+    }
+    .white-box {
+        width:80vw;
+        padding:10px;
+    }
+    .big-logo {
+        font-size:          25vw;
+    }
+
 }
