@@ -10,12 +10,17 @@
 
     </head>
     <body>
-        <nav id='Home'>
+        <nav class='nav' id='Home'>
     <a onclick='scroller("home")'>Home</a>
     <a onclick='scroller("o_mnie")'>O mnie</a>
     <a onclick='scroller("konwersacje")'>Zajęcia</a>
     <a onclick='scroller("cennik")'>Cennik</a>
     <a onclick='scroller("kontakt")'>Kontakt</a>
+    <div class="icon" onclick="animateHamburger(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
 </nav>
 
 
@@ -148,11 +153,46 @@ Nagła pomoc- jednorazowe lekcje</p>
 
 <h1 class='separator'>Galeria</h1>
 <div class="scrollmenu">
-    <img src='assets/img/gallery/01.jpg' alt='image' />
-    <img src='assets/img/gallery/03.jpg' alt='image' />
-    <img src='assets/img/gallery/04.jpg' alt='image' />
-    <img src='assets/img/gallery/05.jpg' alt='image' />
-    <img src='assets/img/gallery/06.jpg' alt='image' />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <img src='assets/img/gallery/01.jpg' alt='image' />
+
+
+
+            <img src='assets/img/gallery/03.jpg' alt='image' />
+
+
+
+            <img src='assets/img/gallery/04.jpg' alt='image' />
+
+
+
+            <img src='assets/img/gallery/05.jpg' alt='image' />
+
+
+
+            <img src='assets/img/gallery/06.jpg' alt='image' />
+
 </div>
 
 <footer>
@@ -161,5 +201,6 @@ Nagła pomoc- jednorazowe lekcje</p>
 
 
         <script src='assets/js/scroll.js'></script>
+        <script src='assets/js/hamburger.js'></script>
     </body>
 </html>
